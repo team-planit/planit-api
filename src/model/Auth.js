@@ -23,6 +23,7 @@ const UserSchema = new Schema({
         default: Date.now
     }
 });
+// console.log(UserSchema)
  // mongoose.model('MUST BE API FILE NAME', UserSchema);
 const Auth = mongoose.model('auth', UserSchema);
 
