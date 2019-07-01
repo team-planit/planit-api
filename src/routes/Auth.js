@@ -1,13 +1,3 @@
-// const express = require('express');
-// const router = express.Router();
-// const gravatar = require('gravatar');
-// const bcrypt = require('bcryptjs');
-// const passport = require('passport');
-// const jwt = require('jsonwebtoken');
-// const keys = require('../../config/key')
-// // Load User Model
-// const Auth = require('../../model/Auth')
-
 import express from 'express'
 import gravatar from 'gravatar'
 import bcrypt from 'bcryptjs'
